@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(199, 197, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    h3{
+        display: flex;
+        align-items: flex-start;
+        width: 50%;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 100px;
+        color: rgb(95, 95, 95);
+    }
+
+    .carousel-wrapper{
+        width: 50%;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+    }
+}

@@ -1,0 +1,96 @@
+.div-category {
+  height: 100vh;
+  min-height: 100%;
+  background-color: rgb(199, 197, 197);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title-category{
+    width: 100%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+  }
+
+  .no-products{
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .max-price-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+
+    span{
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .back-catalogue{
+    margin: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 0, 0);
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .category-products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 15px;
+    padding-top: 20px;
+
+    .category-product-wrapper {
+      background-color: white;
+      height: 350px;
+      width: 20%;
+      max-width: 250px;
+      min-width: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 4px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 200px;
+        padding-bottom: 20px;
+      }
+
+      p {
+        padding-top: 10px;
+        font-size: 20px;
+        max-width: 80%;
+        max-height: 20px;
+      }
+
+      .div-button {
+        padding-top: 40px;
+        button {
+          width: 200px;
+          background-color: red;
+          border: none;
+          color: white;
+          border-radius: 5px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
